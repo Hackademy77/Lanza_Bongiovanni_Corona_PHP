@@ -45,5 +45,25 @@ Pushate su Github chiamando la repository php_01_nome_cognome e inviate il link 
 
 //ESERCIZIO 2
 
+// Dato un array contenente una serie di array associativi di utenti con nome, cognome e genere, per ogni utente stampare “Buongiorno Sig. Nome Cognome”  o “Buongiorno Sig.ra Nome Cognome” o “Buongiorno Nome Cognome” a seconda del genere
+// $users = [
+//   ['name' => 'Davide', 'surname' => 'Cariola', 'gender' => 'M'],
+//   ['name' => 'Emilio', 'surname' => 'Corona', 'gender' => 'M'],
+//   ['name' => 'Nicola', 'surname' => 'Bongiovanni', 'gender' => 'M'],
+//   ['name' => 'Carla', 'surname' => 'Delfine', 'gender' => 'F'],
+//   ['name' => 'Mariasilvia', 'surname' => 'Giacalone', 'gender' => 'F'],
+//   ['name' => 'Christian', 'surname' => 'Infurna', 'gender' => 'M'],
+  
+// ];
+
+// foreach ($users as $key => $user) {
+//   if ($user ['gender'] == 'M') {
+//    echo "Buongiorno Sig. $user[name] $user[surname] \n";
+    
+//   }else{
+//    echo "Buongiorno Sig.ra $user[name] $user[surname] \n";
+//   }
+// }
+
 
 ?>
